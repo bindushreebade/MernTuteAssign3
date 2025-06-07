@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment-3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">  
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Form Validator Assignment</h1>
+    <div class="form-group">
+        
+        <div class="form-ele">
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email" required>
+        </div>
+
+        <div class="form-ele">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-ele">
+        <label for="password">Password:</label>
+        <div class="input-wrapper">
+            <input type="password" id="password" name="password" required>
+            <svg id="toggle-password" class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+            <path class="eye-closed" style="display: none;" d="M13.359 11.238l-1.451-1.451A3.5 3.5 0 0 0 6.213 6.16l-1.45-1.45A7 7 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.72-2.641 3.238z"/>
+            <path class="eye-closed" style="display: none;" d="M2.854 2.146a.5.5 0 0 1 .708 0l10.5 10.5a.5.5 0 0 1-.708.708l-1.084-1.084A7 7 0 0 1 8 13.5C3 13.5 0 8 0 8s.937-1.722 2.854-3.854L2.146 2.854a.5.5 0 0 1 0-.708z"/>
+            <path class="eye-open" d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+            <path class="eye-open" d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+            
+            </svg>
+        </div>
+        </div>
+
+        <div class="form-ele">
+        <label for="confirm-password">Confirm Password:</label>
+        <div class="input-wrapper">
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            <svg id="toggle-confirm-password" class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+            <path class="eye-closed" style="display: none;" d="M13.359 11.238l-1.451-1.451A3.5 3.5 0 0 0 6.213 6.16l-1.45-1.45A7 7 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.72-2.641 3.238z"/>
+            <path class="eye-closed" style="display: none;" d="M2.854 2.146a.5.5 0 0 1 .708 0l10.5 10.5a.5.5 0 0 1-.708.708l-1.084-1.084A7 7 0 0 1 8 13.5C3 13.5 0 8 0 8s.937-1.722 2.854-3.854L2.146 2.854a.5.5 0 0 1 0-.708z"/>
+            <path class="eye-open" d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+            <path class="eye-open" d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+            </svg>
+        </div>
+        </div>
+        <input type="button" id="submit" value="Submit">  
+        <p id="p"></p>
+    </div> 
+
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+        body {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 20px;
+            font-size: 20px;
+            background-color: #c5e8c9;
+            
+        }
+        h1 {
+            text-align: center;
+        }
+
+        .form-group {
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .form-ele {
+            margin-bottom: 20px;
+            width: 100%;            
+        }
+
+        .form-ele label {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        .input-wrapper {
+            position: relative;
+        }
+        
+        input[type="text"].password-input,input[type="password"],input[type="email"],input[type="tel"] {
+            width: 100%;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 10px 40px 10px 12px;
+            height: 48px;
+            border: 3px solid #2e7229;
+            border-radius: 8px;
+            box-sizing: border-box;
+            background-color: #c5e8c9;
+        }
+
+        .toggle-icon {
+            position: absolute;
+            top: 50%;
+            right: 12px;
+            transform: translateY(-50%);
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            fill: #498a4f;
+        }
+
+      
+        #submit {
+            width: 120px;
+            height: 40px;
+            background-color: #4CAF50;
+            font-size: 20px;
+            margin-top: 30px;
+            cursor: pointer;
+            border-color: #4CAF50;
+            border-radius: 10px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #p {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    
+    border-radius: 8px;             
+    padding: 12px;                
+    box-sizing: border-box;         
+}
