@@ -53,12 +53,7 @@ $("#submit").click(function() {
     } else if(!isEmail(email)) {
         errormsg += "*Invalid email format.<br>";
     }
-
-    if(phone === "") {
-        errormsg += "*Phone number is required.<br>";
-    } else if(!$.isNumeric(phone) || phone.length !== 10) {
-        errormsg += "*Phone number must be numeric and 10 digits long.<br>";
-    }
+    
     if(password === "") {
         errormsg += "*Password is required.<br>";
     } else if(!isValidPassword(password)) {
