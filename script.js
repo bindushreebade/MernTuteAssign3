@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $("#phone").on("input", function() {
+        // Remove non-numeric characters    
+        $(this).val($(this).val().replace(/\D/g, '').slice(0, 10));
+    });
     function isEmail(email){
     var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
