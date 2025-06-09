@@ -29,7 +29,7 @@ function togglePasswordVisibility(inputId, svgId) {
 
     const closedPaths = svg.querySelectorAll('.eye-closed');
     const openPaths = svg.querySelectorAll('.eye-open');
-    closedPaths.forEach(p => p.style.display = isPassword ? 'none : 'block');
+    closedPaths.forEach(p => p.style.display = isPassword ? 'none' : 'block' );
     openPaths.forEach(p => p.style.display = isPassword ? 'block':'none');
 }
 
